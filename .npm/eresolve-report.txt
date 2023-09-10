@@ -1,0 +1,1507 @@
+# npm resolution error report
+
+2022-10-19T10:21:03.835Z
+
+While resolving: better-react-spinkit@2.0.4
+Found: react@18.2.0
+node_modules/react
+  react@"18.2.0" from the root project
+  peer react@">=16.8.0" from @emotion/react@11.10.4
+  node_modules/@emotion/react
+    peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.10.4
+    node_modules/@emotion/styled
+  peer react@">=16.8.0" from @emotion/styled@11.10.4
+  node_modules/@emotion/styled
+  peer react@">=16.8.0" from @emotion/use-insertion-effect-with-fallbacks@1.0.0
+  node_modules/@emotion/use-insertion-effect-with-fallbacks
+    @emotion/use-insertion-effect-with-fallbacks@"^1.0.0" from @emotion/react@11.10.4
+    node_modules/@emotion/react
+      peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.10.4
+      node_modules/@emotion/styled
+    @emotion/use-insertion-effect-with-fallbacks@"^1.0.0" from @emotion/styled@11.10.4
+    node_modules/@emotion/styled
+  peer react@">=16.8.0" from formik@2.2.9
+  node_modules/formik
+    formik@"^2.2.9" from the root project
+  peer react@"^18.0.0" from framer-motion@7.2.1
+  node_modules/framer-motion
+    framer-motion@"^7.2.1" from the root project
+  peer react@"^16.8 || ^17 || ^18" from hamburger-react@2.5.0
+  node_modules/hamburger-react
+    hamburger-react@"^2.5.0" from the root project
+  peer react@"^17.0.2 || ^18.0.0-0" from next@12.2.0
+  node_modules/next
+    next@"12.2.0" from the root project
+  peer react@"^18.2.0" from react-dom@18.2.0
+  node_modules/react-dom
+    react-dom@"18.2.0" from the root project
+    peer react-dom@"^18.0.0" from framer-motion@7.2.1
+    node_modules/framer-motion
+      framer-motion@"^7.2.1" from the root project
+    peer react-dom@"^17.0.2 || ^18.0.0-0" from next@12.2.0
+    node_modules/next
+      next@"12.2.0" from the root project
+    peer react-dom@">=16.8" from react-router-dom@6.3.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.3.0" from the root project
+    peer react-dom@"^16.0.0 || ^17.0.0 || ^18.0.0" from react-spinners@0.13.4
+    node_modules/react-spinners
+    peer react-dom@">=16.6.0" from react-transition-group@4.4.5
+    node_modules/react-transition-group
+      react-transition-group@"^4.4.0" from @material-ui/core@4.12.4
+      node_modules/@material-ui/core
+    peer react-dom@"^16.0.0 || ^17.0.0 || ^18.0.0" from react-twitter-embed@4.0.4
+    node_modules/react-twitter-embed
+      react-twitter-embed@"^4.0.4" from the root project
+  peer react@">= 16.8.0" from react-firebase-hooks@5.0.3
+  node_modules/react-firebase-hooks
+    react-firebase-hooks@"^5.0.3" from the root project
+  peer react@"^16.8.0 || ^17 || ^18" from react-hook-form@7.34.2
+  node_modules/react-hook-form
+    react-hook-form@"^7.34.2" from the root project
+    peer react-hook-form@"^7.0.0" from @hookform/resolvers@2.9.8
+    node_modules/@hookform/resolvers
+      @hookform/resolvers@"^2.9.8" from the root project
+  peer react@"*" from react-icons@4.4.0
+  node_modules/react-icons
+    react-icons@"^4.4.0" from the root project
+  peer react@">=16.x.x" from react-iframe@1.8.0
+  node_modules/react-iframe
+    react-iframe@"^1.8.0" from the root project
+  peer react@">=16.8" from react-router@6.3.0
+  node_modules/react-router
+    react-router@"^6.3.0" from the root project
+    react-router@"6.3.0" from react-router-dom@6.3.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.3.0" from the root project
+  peer react@">=16.8" from react-router-dom@6.3.0
+  node_modules/react-router-dom
+    react-router-dom@"^6.3.0" from the root project
+  peer react@"^16.0.0 || ^17.0.0 || ^18.0.0" from react-spinners@0.13.4
+  node_modules/react-spinners
+  peer react@">=16.6.0" from react-transition-group@4.4.5
+  node_modules/react-transition-group
+    react-transition-group@"^4.4.0" from @material-ui/core@4.12.4
+    node_modules/@material-ui/core
+  peer react@">=17" from react-tweet-embed@2.0.0
+  node_modules/react-tweet-embed
+    react-tweet-embed@"^2.0.0" from the root project
+  peer react@"^16.0.0 || ^17.0.0 || ^18.0.0" from react-twitter-embed@4.0.4
+  node_modules/react-twitter-embed
+    react-twitter-embed@"^4.0.4" from the root project
+  peer react@">= 16.8.0 || 17.x.x || ^18.0.0-0" from styled-jsx@5.0.2
+  node_modules/styled-jsx
+    styled-jsx@"5.0.2" from next@12.2.0
+    node_modules/next
+      next@"12.2.0" from the root project
+  peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from use-sync-external-store@1.1.0
+  node_modules/use-sync-external-store
+    use-sync-external-store@"1.1.0" from next@12.2.0
+    node_modules/next
+      next@"12.2.0" from the root project
+
+Could not resolve dependency:
+peer react@"^16.2.0" from better-react-spinkit@2.0.4
+node_modules/better-react-spinkit
+  better-react-spinkit@"^2.0.4" from the root project
+
+Conflicting peer dependency: react@16.14.0
+node_modules/react
+  peer react@"^16.2.0" from better-react-spinkit@2.0.4
+  node_modules/better-react-spinkit
+    better-react-spinkit@"^2.0.4" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "edge": {
+    "type": "peer",
+    "name": "react",
+    "spec": "^16.2.0",
+    "error": "INVALID",
+    "from": {
+      "name": "better-react-spinkit",
+      "version": "2.0.4",
+      "location": "node_modules/better-react-spinkit",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "better-react-spinkit",
+          "spec": "^2.0.4",
+          "from": {
+            "location": "/var/www/vhosts/saptkrishi.com"
+          }
+        }
+      ]
+    }
+  },
+  "dep": {
+    "name": "react",
+    "version": "16.14.0",
+    "whileInstalling": {
+      "name": "better-react-spinkit",
+      "version": "2.0.4",
+      "path": "/var/www/vhosts/saptkrishi.com/node_modules/better-react-spinkit"
+    },
+    "location": "node_modules/react",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.2.0",
+        "error": "INVALID",
+        "from": {
+          "name": "better-react-spinkit",
+          "version": "2.0.4",
+          "location": "node_modules/better-react-spinkit",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "better-react-spinkit",
+              "spec": "^2.0.4",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "current": {
+    "name": "react",
+    "version": "18.2.0",
+    "location": "node_modules/react",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "18.2.0",
+        "from": {
+          "location": "/var/www/vhosts/saptkrishi.com"
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/react",
+          "version": "11.10.4",
+          "location": "node_modules/@emotion/react",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "peer",
+              "name": "@emotion/react",
+              "spec": "^11.0.0-rc.0",
+              "from": {
+                "name": "@emotion/styled",
+                "version": "11.10.4",
+                "location": "node_modules/@emotion/styled",
+                "isWorkspace": false,
+                "dependents": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/styled",
+          "version": "11.10.4",
+          "location": "node_modules/@emotion/styled",
+          "isWorkspace": false,
+          "dependents": []
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/use-insertion-effect-with-fallbacks",
+          "version": "1.0.0",
+          "location": "node_modules/@emotion/use-insertion-effect-with-fallbacks",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@emotion/use-insertion-effect-with-fallbacks",
+              "spec": "^1.0.0",
+              "from": {
+                "name": "@emotion/react",
+                "version": "11.10.4",
+                "location": "node_modules/@emotion/react",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@emotion/react",
+                    "spec": "^11.0.0-rc.0",
+                    "from": {
+                      "name": "@emotion/styled",
+                      "version": "11.10.4",
+                      "location": "node_modules/@emotion/styled",
+                      "isWorkspace": false,
+                      "dependents": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@emotion/use-insertion-effect-with-fallbacks",
+              "spec": "^1.0.0",
+              "from": {
+                "name": "@emotion/styled",
+                "version": "11.10.4",
+                "location": "node_modules/@emotion/styled",
+                "isWorkspace": false,
+                "dependents": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "formik",
+          "version": "2.2.9",
+          "location": "node_modules/formik",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "formik",
+              "spec": "^2.2.9",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^18.0.0",
+        "from": {
+          "name": "framer-motion",
+          "version": "7.2.1",
+          "location": "node_modules/framer-motion",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "framer-motion",
+              "spec": "^7.2.1",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8 || ^17 || ^18",
+        "from": {
+          "name": "hamburger-react",
+          "version": "2.5.0",
+          "location": "node_modules/hamburger-react",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "hamburger-react",
+              "spec": "^2.5.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.2 || ^18.0.0-0",
+        "from": {
+          "name": "next",
+          "version": "12.2.0",
+          "location": "node_modules/next",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "next",
+              "spec": "12.2.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^18.2.0",
+        "from": {
+          "name": "react-dom",
+          "version": "18.2.0",
+          "location": "node_modules/react-dom",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-dom",
+              "spec": "18.2.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^18.0.0",
+              "from": {
+                "name": "framer-motion",
+                "version": "7.2.1",
+                "location": "node_modules/framer-motion",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "framer-motion",
+                    "spec": "^7.2.1",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^17.0.2 || ^18.0.0-0",
+              "from": {
+                "name": "next",
+                "version": "12.2.0",
+                "location": "node_modules/next",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "12.2.0",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": ">=16.8",
+              "from": {
+                "name": "react-router-dom",
+                "version": "6.3.0",
+                "location": "node_modules/react-router-dom",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-router-dom",
+                    "spec": "^6.3.0",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+              "from": {
+                "name": "react-spinners",
+                "version": "0.13.4",
+                "location": "node_modules/react-spinners",
+                "isWorkspace": false,
+                "dependents": []
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": ">=16.6.0",
+              "from": {
+                "name": "react-transition-group",
+                "version": "4.4.5",
+                "location": "node_modules/react-transition-group",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-transition-group",
+                    "spec": "^4.4.0",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.12.4",
+                      "location": "node_modules/@material-ui/core",
+                      "isWorkspace": false,
+                      "dependents": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+              "from": {
+                "name": "react-twitter-embed",
+                "version": "4.0.4",
+                "location": "node_modules/react-twitter-embed",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-twitter-embed",
+                    "spec": "^4.0.4",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">= 16.8.0",
+        "from": {
+          "name": "react-firebase-hooks",
+          "version": "5.0.3",
+          "location": "node_modules/react-firebase-hooks",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-firebase-hooks",
+              "spec": "^5.0.3",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17 || ^18",
+        "from": {
+          "name": "react-hook-form",
+          "version": "7.34.2",
+          "location": "node_modules/react-hook-form",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-hook-form",
+              "spec": "^7.34.2",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-hook-form",
+              "spec": "^7.0.0",
+              "from": {
+                "name": "@hookform/resolvers",
+                "version": "2.9.8",
+                "location": "node_modules/@hookform/resolvers",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@hookform/resolvers",
+                    "spec": "^2.9.8",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "*",
+        "from": {
+          "name": "react-icons",
+          "version": "4.4.0",
+          "location": "node_modules/react-icons",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-icons",
+              "spec": "^4.4.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.x.x",
+        "from": {
+          "name": "react-iframe",
+          "version": "1.8.0",
+          "location": "node_modules/react-iframe",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-iframe",
+              "spec": "^1.8.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8",
+        "from": {
+          "name": "react-router",
+          "version": "6.3.0",
+          "location": "node_modules/react-router",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-router",
+              "spec": "^6.3.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            },
+            {
+              "type": "prod",
+              "name": "react-router",
+              "spec": "6.3.0",
+              "from": {
+                "name": "react-router-dom",
+                "version": "6.3.0",
+                "location": "node_modules/react-router-dom",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-router-dom",
+                    "spec": "^6.3.0",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8",
+        "from": {
+          "name": "react-router-dom",
+          "version": "6.3.0",
+          "location": "node_modules/react-router-dom",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-router-dom",
+              "spec": "^6.3.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "react-spinners",
+          "version": "0.13.4",
+          "location": "node_modules/react-spinners",
+          "isWorkspace": false,
+          "dependents": []
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.6.0",
+        "from": {
+          "name": "react-transition-group",
+          "version": "4.4.5",
+          "location": "node_modules/react-transition-group",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-transition-group",
+              "spec": "^4.4.0",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.12.4",
+                "location": "node_modules/@material-ui/core",
+                "isWorkspace": false,
+                "dependents": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=17",
+        "from": {
+          "name": "react-tweet-embed",
+          "version": "2.0.0",
+          "location": "node_modules/react-tweet-embed",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-tweet-embed",
+              "spec": "^2.0.0",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "react-twitter-embed",
+          "version": "4.0.4",
+          "location": "node_modules/react-twitter-embed",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-twitter-embed",
+              "spec": "^4.0.4",
+              "from": {
+                "location": "/var/www/vhosts/saptkrishi.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">= 16.8.0 || 17.x.x || ^18.0.0-0",
+        "from": {
+          "name": "styled-jsx",
+          "version": "5.0.2",
+          "location": "node_modules/styled-jsx",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "styled-jsx",
+              "spec": "5.0.2",
+              "from": {
+                "name": "next",
+                "version": "12.2.0",
+                "location": "node_modules/next",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "12.2.0",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "use-sync-external-store",
+          "version": "1.1.0",
+          "location": "node_modules/use-sync-external-store",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "use-sync-external-store",
+              "spec": "1.1.0",
+              "from": {
+                "name": "next",
+                "version": "12.2.0",
+                "location": "node_modules/next",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "12.2.0",
+                    "from": {
+                      "location": "/var/www/vhosts/saptkrishi.com"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "peerConflict": {
+    "current": {
+      "name": "react",
+      "version": "18.2.0",
+      "location": "node_modules/react",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react",
+          "spec": "18.2.0",
+          "from": {
+            "location": "/var/www/vhosts/saptkrishi.com"
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "@emotion/react",
+            "version": "11.10.4",
+            "location": "node_modules/@emotion/react",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "peer",
+                "name": "@emotion/react",
+                "spec": "^11.0.0-rc.0",
+                "from": {
+                  "name": "@emotion/styled",
+                  "version": "11.10.4",
+                  "location": "node_modules/@emotion/styled",
+                  "isWorkspace": false,
+                  "dependents": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "@emotion/styled",
+            "version": "11.10.4",
+            "location": "node_modules/@emotion/styled",
+            "isWorkspace": false,
+            "dependents": []
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "@emotion/use-insertion-effect-with-fallbacks",
+            "version": "1.0.0",
+            "location": "node_modules/@emotion/use-insertion-effect-with-fallbacks",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@emotion/use-insertion-effect-with-fallbacks",
+                "spec": "^1.0.0",
+                "from": {
+                  "name": "@emotion/react",
+                  "version": "11.10.4",
+                  "location": "node_modules/@emotion/react",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "peer",
+                      "name": "@emotion/react",
+                      "spec": "^11.0.0-rc.0",
+                      "from": {
+                        "name": "@emotion/styled",
+                        "version": "11.10.4",
+                        "location": "node_modules/@emotion/styled",
+                        "isWorkspace": false,
+                        "dependents": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "prod",
+                "name": "@emotion/use-insertion-effect-with-fallbacks",
+                "spec": "^1.0.0",
+                "from": {
+                  "name": "@emotion/styled",
+                  "version": "11.10.4",
+                  "location": "node_modules/@emotion/styled",
+                  "isWorkspace": false,
+                  "dependents": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "formik",
+            "version": "2.2.9",
+            "location": "node_modules/formik",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "formik",
+                "spec": "^2.2.9",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^18.0.0",
+          "from": {
+            "name": "framer-motion",
+            "version": "7.2.1",
+            "location": "node_modules/framer-motion",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "framer-motion",
+                "spec": "^7.2.1",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.8 || ^17 || ^18",
+          "from": {
+            "name": "hamburger-react",
+            "version": "2.5.0",
+            "location": "node_modules/hamburger-react",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "hamburger-react",
+                "spec": "^2.5.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.2 || ^18.0.0-0",
+          "from": {
+            "name": "next",
+            "version": "12.2.0",
+            "location": "node_modules/next",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "next",
+                "spec": "12.2.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^18.2.0",
+          "from": {
+            "name": "react-dom",
+            "version": "18.2.0",
+            "location": "node_modules/react-dom",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-dom",
+                "spec": "18.2.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^18.0.0",
+                "from": {
+                  "name": "framer-motion",
+                  "version": "7.2.1",
+                  "location": "node_modules/framer-motion",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "framer-motion",
+                      "spec": "^7.2.1",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^17.0.2 || ^18.0.0-0",
+                "from": {
+                  "name": "next",
+                  "version": "12.2.0",
+                  "location": "node_modules/next",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "next",
+                      "spec": "12.2.0",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": ">=16.8",
+                "from": {
+                  "name": "react-router-dom",
+                  "version": "6.3.0",
+                  "location": "node_modules/react-router-dom",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-router-dom",
+                      "spec": "^6.3.0",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+                "from": {
+                  "name": "react-spinners",
+                  "version": "0.13.4",
+                  "location": "node_modules/react-spinners",
+                  "isWorkspace": false,
+                  "dependents": []
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": ">=16.6.0",
+                "from": {
+                  "name": "react-transition-group",
+                  "version": "4.4.5",
+                  "location": "node_modules/react-transition-group",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-transition-group",
+                      "spec": "^4.4.0",
+                      "from": {
+                        "name": "@material-ui/core",
+                        "version": "4.12.4",
+                        "location": "node_modules/@material-ui/core",
+                        "isWorkspace": false,
+                        "dependents": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+                "from": {
+                  "name": "react-twitter-embed",
+                  "version": "4.0.4",
+                  "location": "node_modules/react-twitter-embed",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-twitter-embed",
+                      "spec": "^4.0.4",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">= 16.8.0",
+          "from": {
+            "name": "react-firebase-hooks",
+            "version": "5.0.3",
+            "location": "node_modules/react-firebase-hooks",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-firebase-hooks",
+                "spec": "^5.0.3",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.8.0 || ^17 || ^18",
+          "from": {
+            "name": "react-hook-form",
+            "version": "7.34.2",
+            "location": "node_modules/react-hook-form",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-hook-form",
+                "spec": "^7.34.2",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-hook-form",
+                "spec": "^7.0.0",
+                "from": {
+                  "name": "@hookform/resolvers",
+                  "version": "2.9.8",
+                  "location": "node_modules/@hookform/resolvers",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@hookform/resolvers",
+                      "spec": "^2.9.8",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "*",
+          "from": {
+            "name": "react-icons",
+            "version": "4.4.0",
+            "location": "node_modules/react-icons",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-icons",
+                "spec": "^4.4.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.x.x",
+          "from": {
+            "name": "react-iframe",
+            "version": "1.8.0",
+            "location": "node_modules/react-iframe",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-iframe",
+                "spec": "^1.8.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8",
+          "from": {
+            "name": "react-router",
+            "version": "6.3.0",
+            "location": "node_modules/react-router",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-router",
+                "spec": "^6.3.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              },
+              {
+                "type": "prod",
+                "name": "react-router",
+                "spec": "6.3.0",
+                "from": {
+                  "name": "react-router-dom",
+                  "version": "6.3.0",
+                  "location": "node_modules/react-router-dom",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-router-dom",
+                      "spec": "^6.3.0",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8",
+          "from": {
+            "name": "react-router-dom",
+            "version": "6.3.0",
+            "location": "node_modules/react-router-dom",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-router-dom",
+                "spec": "^6.3.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "react-spinners",
+            "version": "0.13.4",
+            "location": "node_modules/react-spinners",
+            "isWorkspace": false,
+            "dependents": []
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.6.0",
+          "from": {
+            "name": "react-transition-group",
+            "version": "4.4.5",
+            "location": "node_modules/react-transition-group",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-transition-group",
+                "spec": "^4.4.0",
+                "from": {
+                  "name": "@material-ui/core",
+                  "version": "4.12.4",
+                  "location": "node_modules/@material-ui/core",
+                  "isWorkspace": false,
+                  "dependents": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=17",
+          "from": {
+            "name": "react-tweet-embed",
+            "version": "2.0.0",
+            "location": "node_modules/react-tweet-embed",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-tweet-embed",
+                "spec": "^2.0.0",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.0.0 || ^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "react-twitter-embed",
+            "version": "4.0.4",
+            "location": "node_modules/react-twitter-embed",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-twitter-embed",
+                "spec": "^4.0.4",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">= 16.8.0 || 17.x.x || ^18.0.0-0",
+          "from": {
+            "name": "styled-jsx",
+            "version": "5.0.2",
+            "location": "node_modules/styled-jsx",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "styled-jsx",
+                "spec": "5.0.2",
+                "from": {
+                  "name": "next",
+                  "version": "12.2.0",
+                  "location": "node_modules/next",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "next",
+                      "spec": "12.2.0",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.8.0 || ^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "use-sync-external-store",
+            "version": "1.1.0",
+            "location": "node_modules/use-sync-external-store",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "use-sync-external-store",
+                "spec": "1.1.0",
+                "from": {
+                  "name": "next",
+                  "version": "12.2.0",
+                  "location": "node_modules/next",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "next",
+                      "spec": "12.2.0",
+                      "from": {
+                        "location": "/var/www/vhosts/saptkrishi.com"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "peer": {
+      "name": "react",
+      "version": "16.14.0",
+      "whileInstalling": {
+        "name": "better-react-spinkit",
+        "version": "2.0.4",
+        "path": "/var/www/vhosts/saptkrishi.com/node_modules/better-react-spinkit"
+      },
+      "location": "node_modules/react",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.2.0",
+          "error": "INVALID",
+          "from": {
+            "name": "better-react-spinkit",
+            "version": "2.0.4",
+            "location": "node_modules/better-react-spinkit",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "better-react-spinkit",
+                "spec": "^2.0.4",
+                "from": {
+                  "location": "/var/www/vhosts/saptkrishi.com"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false,
+  "isMine": true
+}
